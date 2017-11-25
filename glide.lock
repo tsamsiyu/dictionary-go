@@ -1,0 +1,22 @@
+hash: 63c2ffb545c0777f9293dc3a505197e2d5080b6ab77e4eefb6224630f4831b55
+updated: 2017-11-25T20:54:14.073121651+02:00
+imports:
+- name: github.com/buaazp/fasthttprouter
+  version: ade4e2031af3aed7fffd241084aad80a58faf421
+- name: github.com/joho/godotenv
+  version: a79fa1e548e2c689c241d10173efd51e5d689d5b
+- name: github.com/klauspost/compress
+  version: ea08389e0dc46025380296f7dd04ab0e8de36adb
+  subpackages:
+  - flate
+  - gzip
+  - zlib
+- name: github.com/klauspost/cpuid
+  version: eae9b3e628d72774e13bdf024e78c0802f85a5b9
+- name: github.com/revel/revel
+  version: 164f0cf561ac8046a994276fa417fc7f11863da5
+- name: github.com/valyala/fasthttp
+  version: d42167fd04f636e20b005e9934159e95454233c7
+  subpackages:
+  - fasthttputil
+testImports: []
