@@ -1,5 +1,5 @@
-hash: 63c2ffb545c0777f9293dc3a505197e2d5080b6ab77e4eefb6224630f4831b55
-updated: 2017-11-25T20:54:14.073121651+02:00
+hash: 7817fc267c356caa6fd71adaaaf59794a9640ee54d718f32dcc962e64941003a
+updated: 2017-11-27T23:41:14.109914797+02:00
 imports:
 - name: github.com/buaazp/fasthttprouter
   version: ade4e2031af3aed7fffd241084aad80a58faf421
@@ -13,10 +13,23 @@ imports:
   - zlib
 - name: github.com/klauspost/cpuid
   version: eae9b3e628d72774e13bdf024e78c0802f85a5b9
+- name: github.com/op/go-logging
+  version: b2cb9fa56473e98db8caba80237377e83fe44db5
 - name: github.com/revel/revel
   version: 164f0cf561ac8046a994276fa417fc7f11863da5
+- name: github.com/sirupsen/logrus
+  version: f006c2ac4710855cf0f916dd6b77acf6b048dc6e
 - name: github.com/valyala/fasthttp
   version: d42167fd04f636e20b005e9934159e95454233c7
   subpackages:
   - fasthttputil
+- name: golang.org/x/crypto
+  version: b080dc9a8c480b08e698fb1219160d598526310f
+  subpackages:
+  - ssh/terminal
+- name: golang.org/x/sys
+  version: a204229cd828a74741ee7b5da9bf4794497f85ed
+  subpackages:
+  - unix
+  - windows
 testImports: []

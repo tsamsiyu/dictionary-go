@@ -8,3 +8,13 @@ import:
   version: ^20160617.0.0
 - package: github.com/buaazp/fasthttprouter
   version: ^0.1.1
+- package: github.com/op/go-logging
+  version: ^1.0.0
+- package: github.com/sirupsen/logrus
+  version: ^1.0.3
+- package: golang.org/x/crypto
+  subpackages:
+  - ssh/terminal
+- package: golang.org/x/sys
+  subpackages:
+  - unix

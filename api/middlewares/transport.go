@@ -1,8 +1,9 @@
 package middlewares
 
 import (
-  // "log"
-  http "github.com/valyala/fasthttp"
+  "dict/core/contracts"
+  // "dict/core"
+  // http "github.com/valyala/fasthttp"
 )
 
 // Transport works with request and response objects
@@ -10,10 +11,8 @@ type Transport struct {
 
 }
 
-func (this *Transport) BeforeHandle(ctx *http.RequestCtx) {
-  // log.Println("Request started")
+func (this *Transport) BeforeRequest(app contracts.App, ctx contracts.Request) {
 }
 
-func (this *Transport) AfterHandle(ctx *http.RequestCtx) {
-  // log.Println("Request stopped")
+func (this *Transport) AfterRequest(app contracts.App, ctx contracts.Request) {
 }
